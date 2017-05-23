@@ -21,7 +21,7 @@ module.exports = module.exports.toString();
 /***/ 139:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  It works!\n</h1>"
+module.exports = "<h1>\n  Welcome to nodes-angular-glitch <small>{{version}}</small>!\n</h1>"
 
 /***/ }),
 
@@ -89,8 +89,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AppComponent = (function () {
     function AppComponent(fb) {
         this.fb = fb;
+        this.version = '1.0';
     }
     AppComponent.prototype.ngOnInit = function () {
+        console.log('poo');
     };
     return AppComponent;
 }());
