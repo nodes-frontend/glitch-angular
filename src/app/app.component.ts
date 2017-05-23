@@ -8,12 +8,14 @@ import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
 })
 export class AppComponent implements OnInit {
 
+  public version: string = '1.0';
+  
   constructor(private fb: FormBuilder) {
     
   }
 
   ngOnInit() {
-    
+    console.log('poo')
   }
   
 }
